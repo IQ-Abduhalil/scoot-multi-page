@@ -1,0 +1,48 @@
+.footer__container {
+  display: flex;
+  position: relative;
+  left: 13px;
+  padding: 22px 165px;
+  align-items: center;
+  background-color: $black;
+
+  &-logo {
+    margin-right: 58px;
+  }
+
+  &-navs {
+    display: flex;
+    gap: 32px;
+  }
+
+  &-nav {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939caa;
+  }
+
+  &-icons {
+    display: flex;
+    gap: 24px;
+    margin-left: 570px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__container {
+    padding: 35px 40px;
+    left: 0px;
+
+    &-logo {
+      max-width: 107.82px;
+      height: 28.56px;
+    }
+
+    &-icons {
+      margin-left: 153px;
+    }
+  }
+}
